@@ -17,7 +17,7 @@ jobs:
               uses: actions/setup-java@v4.2.1
               with:
                   java-version: '8'
-                  distribution: 'termurin'
+                  distribution: 'temurin'
               
             - name: Compilacion
               run: | 
