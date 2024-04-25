@@ -21,8 +21,8 @@ jobs:
               
             - name: Compilacion
               run: | 
-               mvn package
-               
+               #mvn package
+               echo 'pkg'
             - name: Analisis SonarCloud
               run: |
                 mvn clean verify org.sonarsource.scanner.maven:sonar-maven-plugin:3.11.0.3922:sonar \
